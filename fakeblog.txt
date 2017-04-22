@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Fake Blog</title>
+    <meta name="description" content="A fake blog about Brazilian soccer player Ronaldinho">
+    </head>
+    <body>
+        <h1>Ronaldinho</h1>
+        <img src="https://i.ytimg.com/vi/K7UKDv5M-kA/maxresdefault.jpg" alt="Ronaldinho">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sapien eget ligula pulvinar suscipit. Nulla faucibus metus eros, ut eleifend arcu condimentum a. Duis arcu metus, hendrerit et vestibulum et, tincidunt eu nisl. Phasellus faucibus est vel laoreet eleifend. Morbi eget augue leo. Nunc nec felis velit. Vestibulum tristique consectetur leo placerat gravida. Morbi commodo elit in massa semper, in blandit mi consectetur. Fusce eu blandit ipsum. Fusce sed lectus magna. Donec ac arcu massa. Quisque eu erat vitae massa imperdiet pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Team</th>
+                        <th>Award</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2002</td>
+                        <td>Brazil National Team</td>
+                        <td>World Cup Champions</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>FC Barcelona</td>
+                        <td>Balon D'Or</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>FC Barcelona</td>
+                        <td>FIFPro World Player of the Year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ul>
+            <li>1998-2001 Gremio</li>
+            <li>2001-2003 Paris St-Germain</li>
+            <li>2003-2008 FC Barcelona </li>
+            <li>2008-2011 AC Milan</li>
+            <li>2011-2012 Flamengo</li>
+            <li>2012-2014 Atletico Mineiro</li>
+            <li>2014-2015 Queretaro</li>
+            <li>2015 Fluminensse</li>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=Cnj64DsO8T8" target="_blank">Click to see Ronaldinho in action!</a>            
+        <h3>Take a quick survey!</h3>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="yes_email">Emails please</label>
+        <input type="radio" id="yes_email" name="yes" value="yes_email">
+        <label for="no_email">No Emails please</label>
+        <input type="radio" id="no_email" name="no" value="no_email">
+        <h4>Was this page helpful?</h4>
+        <label for="yes">Yes</label>
+        <input type="checkbox" id="yes" name="yes">
+        <label for="no">No</label>
+        <input type="checkbox" id="no" name="no">
+        <input type="submit" value="Submit">
+    </body>
+</html>

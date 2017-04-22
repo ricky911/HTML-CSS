@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 970px;
+    height: 600px;
+    background-color: #245176;
+}
+
+.header {
+   height: 120px;
+    width: auto;
+}
+
+.header img{
+    display: inline-block;
+    width: 300px;
+    margin: 15px 0px 10px 30px;
+}
+
+.header ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-size: 14px;
+}
+
+.header ul li{
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 3px;
+}
+
+.header ul li a{
+        color: rgb(218,181,0);
+}
+
+.header li:first-child {
+    color: white;
+    padding-left: 100px;
+}
+
+.header ul li:last-child {
+    background-color: rgb(68,68,68);
+    width: 270px;
+    height: 50px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black; 
+}
+
+.header input{
+    text-align: center;
+    height: 30px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 34px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.header button{
+    border: 2px solid rgb(192,192,192);
+    background-color: #245176;
+    color: white;
+    height: 28px;
+    width: 40px;
+    border-radius: 5px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.toolbar{
+    height: 50px;
+    width: 900px;
+    margin-left: 36px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background: linear-gradient(rgb(53,117,173), rgb(72,126,172), rgb(53,117,173));
+}
+
+.toolbar ul{
+    display: inline-block;
+/*    color: white;*/
+    margin: 10px 0px 10px 50px;
+}
+
+.toolbar ul li{
+    display: inline-block;
+    font-size: 24px;
+    padding-right: 35px;
+}
+
+.toolbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    width: 900px;
+    height: 450px;
+    margin-left: 36px;
+    margin-top: 30px 
+}
+
+.main ul {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 20px
+}
+
+.main ul li {
+    margin-bottom: 10px;
+}
+
+.main ul:first-child li:before {
+    content: "\00BB \0020";
+    color: rgb(218,181,0);
+}
+
+.main ul li a {
+    color: white;
+}
+
+.main p{
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.main ul:last-child {
+    color: rgb(218,181,0);
+    vertical-align: top;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 300px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.main ul:last-child li:last-child{
+    color: white;
+    font-style: normal;
+}
