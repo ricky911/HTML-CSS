@@ -1,0 +1,51 @@
+.header {
+	background-color: grey;
+}
+
+th {
+	border: 1px solid black;
+	margin-right: 5px;
+	display: inline-block;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: grey;
+}
+
+.content {
+	float: left;
+	/*display: inline-block;*/
+}
+
+.coffee {
+	display: inline-block;
+}
+
+.lorem {
+	display: inline-block;
+}
+
+.baby {
+	display: inline-block;
+}
+
+.zombie {
+	display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+	.three-s { width: 32%; }
+	.one-s { width: 100%; }
+}
+
+@media only screen and (min-width: 481px) {
+	.four-m { width: 23%; }
+}
+
+@media only screen and (max-width: 766px) {
+	.menu { display: none; }
+}
+
+@media only screen and (min-width: 1024px) {
+	.four-l { width: 23%; }
+}
